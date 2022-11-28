@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@keyframes idemo {
+  100% {
+    top: 0vh;
+  }
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_859%2Cw_1528&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F891001168%2Fe79960e75be653e107a57de088ea3859%2Fblur_clean.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div {
+  padding: 5% 10%;
+  position: relative;
+  top: -90vh;
+  text-align: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-shrink: 1;
+  flex-grow: 0;
+  font-size: 6vw;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.prvi {
+  background-color: rgba(0, 0, 255, 0.4);
+  animation: idemo 2s ease-in 1.5s forwards;
+}
+
+.drugi {
+  background-color: rgba(255, 0, 0, 0.4);
+  animation: idemo 2s ease-in 3s forwards;
+}
+
+.treci {
+  background-color: rgba(255, 255, 0, 0.4);
+  animation: idemo 2s ease-in 4.5s forwards;
+}
+
+/*# sourceMappingURL=style.css.map */

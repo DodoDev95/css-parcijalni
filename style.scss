@@ -1,0 +1,36 @@
+@import './base/colors';
+@import './base/reset';
+@import './abstracts/mixins';
+
+
+
+@keyframes idemo {
+
+  100% {
+    top: 0vh;
+  }
+}
+
+.wrapper {
+  @include container
+}
+
+div {
+  @include all-divs
+
+  }
+
+  .prvi {
+    background-color: $color1;
+    @include animacija(1.5s)
+   }
+   
+   .drugi {
+    background-color: $color2;
+    @include animacija(3s)
+   }
+   
+   .treci {
+   background-color: $color3;
+   @include animacija(4.5s)
+   }
